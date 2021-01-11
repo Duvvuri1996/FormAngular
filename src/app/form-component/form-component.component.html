@@ -1,0 +1,42 @@
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+
+    <h1 class="navbar-brand" href="/">Welcome!</h1>
+  
+</nav>
+  
+<div class="row p-0 m-0">
+  
+    <div class="col-sm"></div>
+  
+    <div class="col-sm p-5">
+  
+      <h2 class="form-signin-heading">Details</h2>
+  
+      <label for="inputEmail" class="sr-only">Email</label>
+  
+      <input type="email" id="inputEmail" class="form-control" [(ngModel)]="email" placeholder="Email" required
+        autofocus>
+  
+      <br>
+  
+      <label for="inputSubject" class="sr-only">Subject</label>
+  
+      <input type="text" id="inputSubject" class="form-control" [(ngModel)]="subject" placeholder="Subject"
+        required>
+  
+      <br>
+
+      <label for="inputContent" class="sr-only">Content</label>
+  
+      <input type="text" id="inputContent" class="form-control" [(ngModel)]="content" placeholder="Content"
+        required>
+  
+      <br>
+  
+      <button class="btn btn-lg btn-primary btn-block" type="button" (click)="signin()">Submit</button>  
+    </div>
+  
+    <div class="col-sm"></div>
+  
+  </div>
+  
